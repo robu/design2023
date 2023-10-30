@@ -85,7 +85,7 @@ body {
 
 body {
     font-family: sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     color: #444;
 }
 
@@ -143,4 +143,41 @@ blockquote {
     margin-left: 1em;
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
+}
+
+/* Robert's additions below */
+
+.header, .onecol-content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 1em;
+}
+
+.footer {
+    overflow: hidden;
+}
+
+.title a {
+    text-decoration: none;
+}
+.title a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 0.5em;
+}
+.footer {
+    height: 32px;
+}
+.footer p {
+    height: 1.5em;
+    overflow: hidden;
+    padding: 0 2px;
+}
+.footer .social {
+    height: 32px;
+    width: 80px;
+    padding-left: 2px;
+    overflow: hidden;
 }

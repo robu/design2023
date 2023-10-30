@@ -17,3 +17,5 @@ Me and my wife just sold an apartment in Spain. So now we're looking to maybe in
 The craziest one so far was a 12 hectar property, pretty much in the middle of the forest. It claimed to be one of the country's largest privately owned completely fenced-in properties, and had fallow deer (Swe: "Dovhjortar") planted on the property. It also had a pond of significant size, where both fish and crayfish could be found.
 
 We didn't buy it, but we still talk about it, so maybe we should have?
+
+(By the way, if you still miss some typical work related info, my LinkedIn profile is linked in the footer below.)
