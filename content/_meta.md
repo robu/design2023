@@ -1,6 +1,6 @@
 ---
 Logo: image/robert_256x341.jpg
-Tagline: Robert's portfolio.
+Tagline: Robert Burén (~robu23)
 Social: 
     - title: Link to Robert's project repo on github.
       url: https://github.com/robu/design2023
