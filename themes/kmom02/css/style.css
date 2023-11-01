@@ -342,6 +342,29 @@ pre code {
   line-height: 1.4;
 }
 
+.header .site-header .title {
+  font-family: "Agbalumo";
+}
+
+div.nav #nav ul {
+  margin: 0;
+  padding: 0;
+}
+div.nav #nav ul li {
+  padding: 0;
+}
+div.nav #nav ul li a {
+  display: inline-block;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+}
+div.nav #nav ul li a:hover {
+  background-color: #eee;
+}
+div.nav #nav ul li.active a {
+  background-color: #ccc;
+}
+
 body {
   background-color: #c2d2e7;
 }
