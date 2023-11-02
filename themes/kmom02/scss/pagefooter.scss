@@ -14,7 +14,6 @@
 
  
     .footercontent {
-        float: left;
         overflow: hidden;
         p {
             margin: 0;
@@ -22,9 +21,25 @@
         }
     }
     .social {
-        float: right;
         a {
             text-decoration: none;
         }
+    }
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto 40px;
+    grid-template-rows: auto;
+
+    .footercontent {
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+
+    .social {
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        text-align: right;
     }
 }

@@ -394,10 +394,22 @@ pre code {
   .header {
     grid-template-columns: 150px auto;
   }
+  .header .title h1 {
+    font-size: 1.5em;
+  }
+  .header .title p {
+    font-size: 0.9em;
+  }
 }
 @media (max-width: 400px) {
   .header {
     grid-template-columns: 100px auto;
+  }
+  .header .title h1 {
+    font-size: 1.2em;
+  }
+  .header .title p {
+    font-size: 0.8em;
   }
 }
 .footer {
@@ -415,18 +427,29 @@ pre code {
   box-shadow: 0 2px 1px #333;
 }
 .footer .footercontent {
-  float: left;
   overflow: hidden;
 }
 .footer .footercontent p {
   margin: 0;
   padding: 0;
 }
-.footer .social {
-  float: right;
-}
 .footer .social a {
   text-decoration: none;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto 40px;
+  grid-template-rows: auto;
+}
+.footer .footercontent {
+  grid-column: 1/2;
+  grid-row: 1/1;
+}
+.footer .social {
+  grid-column: 2/2;
+  grid-row: 1/1;
+  text-align: right;
 }
 
 div.nav #nav {
