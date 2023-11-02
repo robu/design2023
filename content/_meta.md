@@ -1,5 +1,5 @@
 ---
-Logo: image/robert_256x341.jpg
+Logo: image/robert_200x200.jpg
 Tagline: Robert Burén (~robu23)
 Social: 
     - title: Link to Robert's project repo on github.

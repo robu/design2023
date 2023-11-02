@@ -1,15 +1,28 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
+@import 'general';
+
 @import 'blockquotes';
 @import 'code';
 
+@import 'pageheader';
+@import 'pagefooter';
 @import 'nav';
 
 body {
     background-color: $background-color;
+    font-size: 14px;
 }
 
 * {
     color: $font-color;
+    box-sizing: border-box;
+}
+
+.pagewrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1em;
 }

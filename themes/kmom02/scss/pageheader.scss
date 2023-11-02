@@ -1,0 +1,43 @@
+.header .title {
+    font-family: 'Agbalumo';
+}
+
+.header .logo img {
+    width: 100%;
+    border-radius: 30px;
+    border: 5px solid $border-color;
+    box-shadow: 0 3px 2px $border-shadow-color;
+}
+
+// page layout sextions
+.header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 2em auto;
+
+    .nav {
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+    }
+
+    .logo {
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+
+    }
+    .title {
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+
+    }
+}
+
+.header .title {
+    padding-left: 2em;
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
