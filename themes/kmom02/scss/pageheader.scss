@@ -41,3 +41,14 @@
         text-decoration: underline;
     }
 }
+
+@media (max-width: 600px) {
+    .header {
+        grid-template-columns: 150px auto;
+    }
+}
+@media (max-width: 400px) {
+    .header {
+        grid-template-columns: 100px auto;
+    }
+}
