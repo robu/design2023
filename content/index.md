@@ -1,6 +1,7 @@
 ---
 Title: Home
 Description: This is our index page.
+Menuicon: fa-home
 ---
 
 Robert's Home page

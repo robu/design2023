@@ -1,6 +1,7 @@
 ---
 Title: About
 Description: About how this site was made
+Menuicon: fa-info
 # hidden: true
 ---
 # %meta.description%
