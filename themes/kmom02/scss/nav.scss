@@ -33,3 +33,28 @@ div.nav {
     }
 
 }
+
+// when width is smaller than 400 px make the list items in the nav stack
+@media (max-width: 400px) {
+    div.nav {
+        height: auto;
+
+
+        #nav {
+            ul {
+                display: block;
+                width: 100%;
+            li {
+                    display: block;
+                    width: 100%;
+                    a {
+                        text-align: center;
+                        display: block;
+                        width: 100%;
+                        padding: 0.5em 0;
+                    }
+                }
+            }
+        }
+    }
+}

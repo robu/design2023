@@ -479,6 +479,25 @@ div.nav #nav ul li.active a {
   background-color: #e0fbfc;
 }
 
+@media (max-width: 400px) {
+  div.nav {
+    height: auto;
+  }
+  div.nav #nav ul {
+    display: block;
+    width: 100%;
+  }
+  div.nav #nav ul li {
+    display: block;
+    width: 100%;
+  }
+  div.nav #nav ul li a {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0.5em 0;
+  }
+}
 body {
   background-color: #c2d2e7;
   font-size: 14px;
