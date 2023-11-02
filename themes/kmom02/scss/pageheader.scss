@@ -23,20 +23,21 @@
     .logo {
         grid-column: 1 / 2;
         grid-row: 2 / 2;
-
     }
+
     .title {
         grid-column: 2 / 2;
         grid-row: 2 / 2;
-
     }
 }
 
 .header .title {
     padding-left: 2em;
+
     a {
         text-decoration: none;
     }
+
     a:hover {
         text-decoration: underline;
     }
@@ -45,23 +46,28 @@
 @media (max-width: 600px) {
     .header {
         grid-template-columns: 150px auto;
+
         .title {
             h1 {
                 font-size: 1.5em;
             }
+
             p {
                 font-size: 0.9em;
             }
         }
     }
 }
+
 @media (max-width: 400px) {
     .header {
         grid-template-columns: 100px auto;
+
         .title {
             h1 {
                 font-size: 1.2em;
             }
+
             p {
                 font-size: 0.8em;
             }

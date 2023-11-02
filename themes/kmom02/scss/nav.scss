@@ -1,58 +1,56 @@
-div.nav {
-    #nav {
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: right;
+.nav {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
 
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            display: inline-block;
-
-            li {
-                margin: 0;
-                padding: 0;
-                display: inline-block;
-                
-                a {
-                    display: inline-block;
-                    padding: 0.5em 0.5em;
-                    text-decoration: none;
-                }
-                a:hover {
-                    background-color: $background-hover-color;
-                }
-            }
-            li.active {
-                a {
-                    background-color: $background-alternative-color;
-                }
-            }
-
-        }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
     }
+
+    li {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    li a {
+        display: inline-block;
+        padding: 0.5em;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: $background-hover-color;
+    }
+
+
+    .active a {
+        background-color: $background-alternative-color;
+    }
+
 
 }
 
 // when width is smaller than 400 px make the list items in the nav stack
 @media (max-width: 400px) {
-    div.nav {
+    .nav {
         height: auto;
 
+        ul {
+            display: block;
+            width: 100%;
 
-        #nav {
-            ul {
+            li {
                 display: block;
                 width: 100%;
-            li {
+
+                a {
+                    text-align: center;
                     display: block;
                     width: 100%;
-                    a {
-                        text-align: center;
-                        display: block;
-                        width: 100%;
-                        padding: 0.5em 0;
-                    }
+                    padding: 0.5em 0;
                 }
             }
         }

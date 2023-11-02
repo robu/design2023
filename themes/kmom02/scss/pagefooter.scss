@@ -12,18 +12,18 @@
     border: 2px solid $border-color;
     box-shadow: 0 2px 1px $border-shadow-color;
 
- 
+
     .footercontent {
         overflow: hidden;
-        p {
-            margin: 0;
-            padding: 0;
-        }
     }
-    .social {
-        a {
-            text-decoration: none;
-        }
+
+    .footercontent p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .social a {
+        text-decoration: none;
     }
 }
 
