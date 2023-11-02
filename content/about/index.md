@@ -14,9 +14,3 @@ Pico is a flat-file based CMS, which means that both content, configuration and 
 The content is written in [markdown format](https://www.markdownguide.org/), and I use [my development environment](https://code.visualstudio.com/docs/setup/mac) both to develop the site and to write the content.
 
 Some [Google Fonts](https://fonts.google.com/) and [Font Awesome](https://fontawesome.com/) icons are used to make the site look a bit nicer.
-
-----
-Krav:
-
-Din portfölj ska ha en om-sida med routen /about där du skriver ett kort stycke om vilka tekniker du använder i sidan.
-
