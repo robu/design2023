@@ -34,3 +34,12 @@
         background-color: $background-alternative-color;
     }
 }
+
+// if page is less than 400px wide, only have one column
+@media (max-width: 400px) {
+    .techwrapper {
+        h1, .span2, .span3 {
+            grid-column: span 1;
+        }
+    }
+}
