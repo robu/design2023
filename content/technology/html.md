@@ -5,12 +5,12 @@ Template: technology
 ---
 # HTML
 
-HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Protocol (HTTP) grunden i webben. Webbsidor skrivs i HTML och skickas sedan över internet med hjälp av HTTP.
+HyperText Markup Language (HTML) along with HyperText Transfer Protocol (HTTP) forms the foundation of the web. Web pages are written in HTML and are then sent over the internet using HTTP.
 
-HTML beskriver innehåll och struktur för våra webbplatser och gör det möjligt att ladda andra dokument till exempel CSS eller JavaScript filer.
+HTML describes the content and structure of our websites and enables the loading of other documents, for example, CSS or JavaScript files.
 
-HTML använder sig av element beskrivna av taggar. Nedan är ett exempel på ett textstycke med en länk i:
+HTML uses elements described by tags. Below is an example of a paragraph with a link in it:
 
 ```html
-<p>En länk till min <a href="minwebbplats.html">webbplats</a></p>
+<p>A link to my <a href="mywebpage.html">web page</a></p>
 ```

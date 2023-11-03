@@ -5,11 +5,11 @@ Template: technology
 ---
 # Python
 
-Python är ett programmeringsspråk som lanserades 1991 av Guido van Rossum. Programmeringsspråket är dynamiskt typad och betecknas som ett generellt programmeringsspråk då det kan tillämpas inom många domäner.
+Python is a programming language that was launched in 1991 by Guido van Rossum. The programming language is dynamically typed and is characterized as a general-purpose language since it can be applied in many domains.
 
-Programmeringsspråket utmärkar sig genom att alla datatyper är baserat på klasser och objekt. En annan aspekt som skiljer Python från andra språk är att indentering används för att särskilja block i koden.
+The programming language is distinguished by the fact that all data types are based on classes and objects. Another aspect that sets Python apart from other languages is that indentation is used to distinguish blocks in the code.
 
-Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på följande sätt i Python:
+A program that prints out all even numbers between 1 and 100 could look like the following in Python:
 
 ```python
 for number in range(1, 100 + 1):

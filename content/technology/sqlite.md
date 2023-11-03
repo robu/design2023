@@ -5,4 +5,4 @@ Template: technology
 ---
 # SQLite
 
-SQLite är en filbaserad databas som använder sig av frågespråket Structured Query Language (SQL). Datatyper som man kan använda sig av är begränsade i förhållande till exempelvis MySQL eller PostGreSQL.
+SQLite is a file-based database that uses the query language Structured Query Language (SQL). The data types that can be used are limited in comparison to, for example, MySQL or PostgreSQL.

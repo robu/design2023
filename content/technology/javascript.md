@@ -5,11 +5,11 @@ Template: technology
 ---
 # JavaScript
 
-JavaScript är ett prototyp-baserat skriptspråk. JavaScript utgör tillsammans med HTML och CSS grunden för webben. JavaScript är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt.
+JavaScript is a prototype-based scripting language. Along with HTML and CSS, JavaScript constitutes the foundation of the web. JavaScript is dynamic, loosely typed, and treats functions as first-class objects.
 
-JavaScript använder sig av C-like syntax, men har annars inget gemensamt med programmeringsspråket Java.
+JavaScript uses C-like syntax, but otherwise has nothing in common with the Java programming language.
 
-Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på följande sätt i JavaScript:
+A program that prints out all even numbers between 1 and 100 could look like the following in JavaScript:
 
 ```javascript
 for (let i = 1; i <= 100; i++) {

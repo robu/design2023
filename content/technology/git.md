@@ -5,8 +5,8 @@ Template: technology
 ---
 # Git
 
-Git är ett distribuerat versionshanteringssystem som skapades 2005 av Linus Torvalds. Git skapades för att hantera ändringar för Linux-kärnan.
+Git is a distributed version control system that was created in 2005 by Linus Torvalds. Git was created to manage changes to the Linux kernel.
 
-Att Git är ett distribuerat system innebär att inget centralt arkiv behövs. Ett centralt arkiv behövs dock om flera utvecklare vill samarbeta om samma kod.
+The fact that Git is a distributed system means that no central repository is needed. However, a central repository is necessary if multiple developers want to collaborate on the same code.
 
-Git är tradionellt sett ett CLI verktyg, men en del GUI baserade verktyg har utvecklats för att underlätta tröskeln att börja med Git.
+Traditionally, Git is a CLI (Command Line Interface) tool, but some GUI (Graphical User Interface) based tools have been developed to lower the barrier to getting started with Git.

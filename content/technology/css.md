@@ -5,11 +5,11 @@ Template: technology
 ---
 # CSS
 
-Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
+Cascading Style Sheets, CSS, is a language for describing the appearance of elements in a markup language, such as HTML. CSS is one of the three technologies that constitute the foundation of the web.
 
-I CSS använder vi selektorer för att beskriva vilka element vi vill påverka och deklarerar sedan stilen för elementen i ett block.
+In CSS, we use selectors to describe which elements we want to affect and then declare the style for the elements in a block.
 
-Om vi till exempel vill sätta färgen för alla textstycken till blå gör vi på följande sätt.
+For example, if we want to set the color of all paragraphs to blue, we do it in the following way.
 
 ```css
 p {

@@ -5,11 +5,11 @@ Template: technology
 ---
 # PHP
 
-PHP är ett populärt skriptspråk som främst används för att skapa webbplatser med dynamiskt innehåll. PHP är det mest använda server-side programmeringsspråk på webben med uppåt 80% av alla webbplatser som använder det.
+PHP is a popular scripting language primarily used for creating websites with dynamic content. PHP is the most used server-side programming language on the web, with upwards of 80% of all websites using it.
 
-PHP är ett objekt-orienterad programmeringsspråk, som med senare versioner kan vara hård typat och till och med JIT.
+PHP is an object-oriented programming language, which with later versions can be strictly typed and even JIT compiled.
 
-Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på följande sätt i JavaScript:
+A program that prints out all even numbers between 1 and 100 could look like the following in PHP:
 
 ```php
 <?php
