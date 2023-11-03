@@ -1,0 +1,30 @@
+{% include 'incl/headsection.twig' %}
+
+<body>
+    <div class="pagewrapper">
+        {% include 'incl/pageheader.twig' %}
+
+        <div class="main" role="main">
+            <div class="twocol-content">
+                <div class="sidebar">
+                    <div class="framed">
+                        <h3>Technologies</h3>
+                        <ul>
+                            {% for page in pages('technology') if not page.hidden %}
+                            <li{% if page.id==current_page.id %} class="active" {% endif %}><a href="{{ page.url }}">{{
+                                    page.title }}</a></li>
+                                {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="maincontent">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+
+        {% include 'incl/footer.twig' %}
+    </div>
+</body>
+
+</html>

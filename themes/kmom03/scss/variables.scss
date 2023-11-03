@@ -1,8 +1,16 @@
+// colors
 $font-color: #333;
 $font-alternative-color: #fff;
+$font-active-color: #a33;
+$link-color: #008;
 $accent-color: #ee6c4d;
-$background-color: #cbe7c2;
-$background-alternative-color: #e0fbfc;
+$background-color: #c2d2e7; // #d9f6cf;
+$background-alternative-color: #ddd; // #92b188;
 $background-hover-color: $accent-color;
 $border-color: #eee;
 $border-shadow-color: #333;
+
+// responsive widths
+$mobile-width: 400px;
+$tablet-width: 600px;
+$desktop-width: 800px;

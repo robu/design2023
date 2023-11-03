@@ -43,7 +43,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: $tablet-width) {
     .header {
         grid-template-columns: 150px auto;
 
@@ -59,7 +59,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: $mobile-width) {
     .header {
         grid-template-columns: 60px auto;
 
