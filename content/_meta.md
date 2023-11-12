@@ -8,4 +8,10 @@ Social:
     - title: My LinkedIn page.
       url: https://www.linkedin.com/in/robertburen/
       icon: linkedin
+    - title: Dark Mode
+      url: ?action=theme
+      icon: moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: trash
 ---
