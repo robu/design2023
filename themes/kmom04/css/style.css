@@ -450,7 +450,6 @@ pre code {
   grid-column: 2/2;
   grid-row: 1/1;
   text-align: right;
-  border: solid 1px red;
 }
 
 .techwrapper {
