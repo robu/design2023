@@ -1,0 +1,16 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'general';
+
+@import 'blockquotes';
+@import 'code';
+
+@import 'pageheader';
+@import 'pagefooter';
+@import 'technology';
+@import 'nav';
+
+.main {
+    background-color: aliceblue;
+}
