@@ -1,5 +1,19 @@
+* {
+    color: $font-color;
+    box-sizing: border-box;
+}
+
 body {
+    background-color: $background-color;
     font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+}
+
+.pagewrapper {
+    width: 100%;
+    max-width: $desktop-width;
+    margin: 0 auto;
+    padding: 0 1em;
 }
 
 p {

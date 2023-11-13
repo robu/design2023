@@ -307,8 +307,22 @@ template {
   display: none;
 }
 
+* {
+  color: #333;
+  box-sizing: border-box;
+}
+
 body {
+  background-color: #c2d2e7;
   font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+}
+
+.pagewrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 p {
@@ -599,20 +613,4 @@ pre code {
     width: 100%;
     padding: 0.5em 0;
   }
-}
-body {
-  background-color: #c2d2e7;
-  font-size: 14px;
-}
-
-* {
-  color: #333;
-  box-sizing: border-box;
-}
-
-.pagewrapper {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1em;
 }
