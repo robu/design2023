@@ -1,8 +1,6 @@
 # Analysis of web sites' choice of colors
 
-In this report, I will analyze the choice of colors on three different web sites. 
-
-_TODO: Skriv en eller två rader om vad uppgiften handlar om._
+In this report, I will analyze the choice of colors on three different web sites. I will use a tool to extract the colors used and compare their usage.
 
 ## Selection
 
@@ -15,9 +13,7 @@ When I started the process of choosing the sites to analyze, I thought it would 
 
 ## Method
 
-My approach on this analysis is to use the [ColorZilla](https://www.colorzilla.com/) browser extension to analyze the colors used on the sites. I will also use the [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/) to analyze the contrast between the colors used on the sites. *TODO: verify that this makes sense!*
-
-**Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.**
+My approach on this analysis is to use the [ColorZilla](https://www.colorzilla.com/) browser extension to analyze the colors used on the sites. I will capture the front page as a long screenshot, using the "Capture Full Page" feature of my prefered browser, [Arc](https://arc.net/).
 
 ## Results
 
@@ -25,7 +21,7 @@ My approach on this analysis is to use the [ColorZilla](https://www.colorzilla.c
 
 [![Bredband2 overview](../image/kmom04/bredband2.png){.website-capture}](../image/kmom04/bredband2.png)
 
-These are the colors picked up by the ColorZilla browser extension:
+These are the colors picked up by the ColorZilla browser extension from the [Bredband2](https://bredband2.se/) site:
 
 <table class="coloruse"><tr>
 <td style="background-color: #F93E48" class="white">1</td>
@@ -43,14 +39,15 @@ These are the colors picked up by the ColorZilla browser extension:
 <td style="background-color: #FFFFFF">13</td>
 </tr></table>
 
+The color schema could be described as a monochromatic schema with different shades of red (colors 1-5), combined with a half dozen shades of grey (8-13). The green colors (6-7) picked up by the tools aren't seen on the site, but are probably used as colors for user notification and messages. 
 
 ### Qliro overview {.clear}
 
 [![Qliro overview](../image/kmom04/qliro.png){.website-capture}](../image/kmom04/qliro.png)
 
-(Please note that the black area shown in the screenshot to the left shows an image on [the actual Qliro site](https://www.qliro.com/), which isn't being captured by my capture tool.)
+(Please note that the black area shown in the screenshot to the left shows an image on the actual Qliro site, which isn't being captured by my capture tool.)
 
-These are the colors picked up by the ColorZilla browser extension:
+These are the colors picked up by the ColorZilla browser extension from the [Qliro](https://www.qliro.com/) site.
 
 <table class="coloruse"><tr>
 <td style="background-color: #003437" class="white">1</td>
@@ -73,11 +70,13 @@ These are the colors picked up by the ColorZilla browser extension:
 <td style="background-color: #FFFFFF">18</td>
 </tr></table>
 
+The Qliro color schema is very black/white/grey monochromatic, with the green from the Qliro green logo used as signal color. One could definitely question whether the number of shades of grey really has a purpose, or if it's just a result of a fragmented design process.
+
 ### Verkkokauppa.com overview {.clear}
 
 [![Verkkokauppa.com overview](../image/kmom04/verkkokauppa_com.png){.website-capture}](../image/kmom04/verkkokauppa_com.png)
 
-These are the colors picked up by the ColorZilla browser extension:
+These are the colors picked up by the ColorZilla browser extension from the [Verkkokauppa.com](https://www.verkkokauppa.com/) site.
 
 <table class="coloruse"><tr>
 <td style="background-color: #E3101B" class="white">1</td>
@@ -98,15 +97,19 @@ These are the colors picked up by the ColorZilla browser extension:
 <td style="background-color: #FFFFFF">16</td>
 </tr></table>
 
-_Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade._
+The Verkkokauppa.com ("VK") color schema is similar to both the earlier ones in that it relies on a black/white monochromatic schema with a signal color. In this case, the signal color is the VK red color (color #1).
+
+Just looking at the colors identified by the tool, one would expect a complementary color schema, but most of colors 2-6 are rarely seen on the site.
 
 ## Analysis {.clear}
 
-Diskutera och analysera de resultaten du fann.
+Even though the three companies I chose are quite different in the nature of their businesses, they all have a similar approach to their color schema. They all use a monochromatic schema with a signal color, and they all use a lot of shades of grey. Looking more at the actual sites, the Bredband2 site is clearly redish, where the Qliro site is more black and white. The Verkkokauppa.com site is also black and white, but it's use of product images and the red signal color makes it look more colorful.
 
 ## References
 
-Ange de eventuella referenser du använder dig av, om några.
+As mentioned above, I used the [ColorZilla](https://www.colorzilla.com/) browser extension to analyze the colors used on the sites. I also used the [Arc](https://arc.net/) browser to capture the screenshots.
+
+The terminology of color schemas are taken from the [dbwebb course material](https://dbwebb.se/guide/design-med-html5-och-css3/farg) on the topic.
 
 ## Misc
 
