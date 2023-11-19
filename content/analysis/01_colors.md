@@ -105,6 +105,13 @@ Just looking at the colors identified by the tool, one would expect a complement
 
 Even though the three companies I chose are quite different in the nature of their businesses, they all have a similar approach to their color schema. They all use a monochromatic schema with a signal color, and they all use a lot of shades of grey. Looking more at the actual sites, the Bredband2 site is clearly redish, where the Qliro site is more black and white. The Verkkokauppa.com site is also black and white, but it's use of product images and the red signal color makes it look more colorful.
 
+Bredband2 pushes their brand colors. Selling a fairly generic service such as internet connections and telephony, it's important to build a brand that is recognizable. 
+
+Qliro is primarily a B2B business in the consumer finance space. The strict black/white schema enhances the feeling of seriousness, trustworthiness and "bankiness".
+
+The main purpose of the Verkkokauppa.com site is to sell products. The black/white schema is used to make the products stand out, and the red signal color is used to highlight important elements on the site and build brand recognition.
+
+
 ## References
 
 As mentioned above, I used the [ColorZilla](https://www.colorzilla.com/) browser extension to analyze the colors used on the sites. I also used the [Arc](https://arc.net/) browser to capture the screenshots.
