@@ -11,7 +11,7 @@ Social:
       icon: linkedin
     - title: Dark Mode
       url: ?action=theme
-      icon: moon
+      icon: moon-o
     - title: Destroy Session
       url: ?action=session_destroy
       icon: trash
