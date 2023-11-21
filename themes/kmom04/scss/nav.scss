@@ -22,12 +22,14 @@
     }
 
     li a:hover {
-        background-color: $background-hover-color;
+        color: $highlight-color;
+        background-color: $highlight-background-color;
     }
 
 
     .active a {
-        background-color: $background-alternative-color;
+        color: $highlight-color;
+        background-color: $highlight-background-color;
     }
 
 

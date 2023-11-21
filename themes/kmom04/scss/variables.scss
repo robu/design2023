@@ -1,14 +1,33 @@
-// colors
-$font-color: #333;
-$font-alternative-color: #fff;
-$font-active-color: #a33;
-$link-color: #008;
-$accent-color: #ee6c4d;
-$background-color: #c2d2e7; // #d9f6cf;
-$background-alternative-color: #ddd; // #92b188;
-$background-hover-color: $accent-color;
-$border-color: #eee;
-$border-shadow-color: #333;
+// colors from color schema
+$color1: #D1CA00;
+$color2: #918E24;
+$color3: #5400D1;
+$color4: #4B297C;
+$color5: #525029;
+
+$light-text: #fff;
+$dark-text: #000;
+
+
+
+$body-background-color: $color2;
+$content-color: $color5;
+$content-background-color: $color1;
+$highlight-color: $light-text;
+$highlight-background-color: $color4;
+$border-color: $color2;
+$border-shadow-color: $color5;
+
+
+//$font-color: $color5;
+//$accent-color: $color3;
+//$background-color: $color1;
+//$font-active-color: $color4; // active sidebar item
+//$link-color: $color3; // hover link
+//$background-alternative-color: $accent-color;
+//$background-hover-color: $accent-color;
+//$font-alternative-color: $light-text;
+
 
 // responsive widths
 $mobile-width: 400px;

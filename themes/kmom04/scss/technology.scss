@@ -36,7 +36,8 @@
     }
 
     a:hover {
-        background-color: $background-alternative-color;
+        color: $highlight-color;
+        background-color: $highlight-background-color;
     }
 }
 
@@ -92,13 +93,10 @@
         text-decoration: none;
     }
 
-    .active a {
-        color: $font-active-color;
-    }
-
     a:hover {
         text-decoration: underline;
-        color: $link-color;
+        color: $highlight-color;
+        background-color: $highlight-background-color;
     }
 }
 
