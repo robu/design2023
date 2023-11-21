@@ -41,6 +41,10 @@ These are the colors picked up by the ColorZilla browser extension from the [Bre
 
 The color schema could be described as a monochromatic schema with different shades of red (colors 1-5), combined with a half dozen shades of grey (8-13). The green colors (6-7) picked up by the tools aren't seen on the site, but are probably used as colors for user notification and messages. 
 
+Bredband2's choice of font family for different elements are the same for all kinds: Manrope, Arial, sans-serif. That means they have chosen a consistent sans serif fonts for all text on the front page of the site.
+
+Bredband2 pushes their brand colors. Selling a fairly generic service such as internet connections and telephony, it's important to build a brand that is recognizable. 
+
 ### Qliro overview {.clear}
 
 [![Qliro overview](../image/kmom04/qliro.png){.website-capture}](../image/kmom04/qliro.png)
@@ -72,6 +76,13 @@ These are the colors picked up by the ColorZilla browser extension from the [Qli
 
 The Qliro color schema is very black/white/grey monochromatic, with the green from the Qliro green logo used as signal color. One could definitely question whether the number of shades of grey really has a purpose, or if it's just a result of a fragmented design process.
 
+Qliro's choice of font family for different elements are:
+* h1, h3 and h4: Shentox-Bold, a sans serif, all caps, font used in very bold titles.
+* h6: Inter-SemiBold, a sans serif thinner font, used in titles for information boxes.
+* p: Inter-Regular, a simple sans serif font.
+
+Qliro is primarily a B2B business in the consumer finance space. The strict black/white schema enhances the feeling of seriousness, trustworthiness and "bankiness", and the clarity of the font choices also reflects this.
+
 ### Verkkokauppa.com overview {.clear}
 
 [![Verkkokauppa.com overview](../image/kmom04/verkkokauppa_com.png){.website-capture}](../image/kmom04/verkkokauppa_com.png)
@@ -101,16 +112,13 @@ The Verkkokauppa.com ("VK") color schema is similar to both the earlier ones in 
 
 Just looking at the colors identified by the tool, one would expect a complementary color schema, but most of colors 2-6 are rarely seen on the site.
 
+The Verkkokauppa.com web site isn't using hx header elements that much. However, the site's choice of font family for all elements are Antarctica, "Helvetica Neue", Helvetica, Arial, sans-serif. Antarctica is a simple no-nonsense sans serif font.
+
+The main purpose of the Verkkokauppa.com site is to sell products. The black/white schema is used to make the products stand out, and the red signal color is used to highlight important elements on the site and build brand recognition. Similarly, the simple font choices are there to make the products stand out and not be distracting.
+
 ## Analysis {.clear}
 
 Even though the three companies I chose are quite different in the nature of their businesses, they all have a similar approach to their color schema. They all use a monochromatic schema with a signal color, and they all use a lot of shades of grey. Looking more at the actual sites, the Bredband2 site is clearly redish, where the Qliro site is more black and white. The Verkkokauppa.com site is also black and white, but it's use of product images and the red signal color makes it look more colorful.
-
-Bredband2 pushes their brand colors. Selling a fairly generic service such as internet connections and telephony, it's important to build a brand that is recognizable. 
-
-Qliro is primarily a B2B business in the consumer finance space. The strict black/white schema enhances the feeling of seriousness, trustworthiness and "bankiness".
-
-The main purpose of the Verkkokauppa.com site is to sell products. The black/white schema is used to make the products stand out, and the red signal color is used to highlight important elements on the site and build brand recognition.
-
 
 ## References
 
