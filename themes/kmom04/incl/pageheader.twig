@@ -1,6 +1,12 @@
 {% include '/incl/nav.twig' %}
 <div class="header" role="banner">
-    {% if pages["_meta"].meta.logo %}
+    {% if (config.session.theme == "dark") and pages["_meta"].meta.logodark %}
+    <div class="logo">
+        <a href="{{ base_url }}">
+            <img src="{{ base_url }}/{{ pages["_meta"].meta.logodark|url }}" alt="" />
+        </a>
+    </div>
+    {% elseif pages["_meta"].meta.logo %}
     <div class="logo">
         <a href="{{ base_url }}">
             <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
