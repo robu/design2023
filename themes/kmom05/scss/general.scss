@@ -1,0 +1,25 @@
+* {
+    color: $content-color;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-background-color;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+}
+
+.pagewrapper {
+    width: 100%;
+    max-width: $desktop-width;
+    margin: 0 auto;
+    padding: 0 1em 1em;
+    background-color: $content-background-color;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+p,li {
+    line-height: 1.5em;
+}
+
