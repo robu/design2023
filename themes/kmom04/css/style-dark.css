@@ -322,7 +322,7 @@ body {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 1em 1em 1em;
+  padding: 0 1em 1em;
   background-color: #0E2133;
   border-bottom-left-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
@@ -580,7 +580,7 @@ pre code {
 }
 
 .coloruse .white {
-  color: white;
+  color: #fff;
 }
 
 .nav {

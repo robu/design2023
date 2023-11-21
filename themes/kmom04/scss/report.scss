@@ -6,16 +6,20 @@
     object-position: top;
     margin: 0 1em 1em 0;
 }
+
 .clear {
     clear: both;
 }
+
 .coloruse {
     height: 2em;
 }
+
 .coloruse td {
     width: 2em;
     text-align: center;
 }
+
 .coloruse .white {
-    color: white;
+    color: $light-text;
 }
