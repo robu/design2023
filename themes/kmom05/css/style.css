@@ -558,6 +558,20 @@ pre code {
     padding-left: 0;
   }
 }
+.gallerywrapper {
+  display: inline-block;
+  padding: 1em;
+  background-color: white;
+}
+
+.galleryimage {
+  width: 100px;
+}
+.galleryimage p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
 .website-capture {
   aspect-ratio: 16/9;
   width: 50%;
