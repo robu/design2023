@@ -6,16 +6,14 @@ Template: gallery
 Images:
     - file: IMG_0448.jpg
       alt: dog
-    - file: IMG_0550.jpg
-      alt: bike
-    - file: IMG_0716.jpg
-      alt: tuna
     - file: IMG_0753.jpg
       alt: unicycle
+    - file: IMG_0716.jpg
+      alt: tuna
+    - file: IMG_0550.jpg
+      alt: bike
     - file: IMG_0886.jpg
       alt: river
-    - file: IMG_8387.jpg
-      alt: forest
     - file: IMG_8388.jpg
       alt: forest
     - file: IMG_8526.jpg
@@ -30,5 +28,6 @@ Images:
       alt: lake
 ---
 
+# Random pictures from my phone
 
 

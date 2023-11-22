@@ -5,16 +5,16 @@
         {% include 'incl/pageheader.twig' %}
 
         <div class="main" role="main">
+            {{ content }}
             <div class="gallerywrapper">
                 {% for image in meta.Images %}
                 <div class="galleryimage">
-                <a href="{{base_url}}/image/gallery/{{ image.file }}">
-                    <img src="{{base_url}}/image/gallery/{{ image.file }}" alt="{{ image.alt }}" class="galleryimage" />
-                </a>
-                <p>{{ image.alt }}</p>
+                    <a href="{{base_url}}/image/gallery/{{ image.file }}">
+                        <img src="{{base_url}}/image/gallery/{{ image.file }}" alt="{{ image.alt }}" class="galleryimage" />
+                    </a>
+                    <p>{{ image.alt }}</p>
                 </div>
                 {% endfor %}
-                {{ content }}
             </div>
         </div>
 
