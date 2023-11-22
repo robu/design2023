@@ -1,0 +1,20 @@
+{% include 'incl/headsection.twig' %}
+
+<body>
+    <div class="pagewrapper">
+        {% include 'incl/pageheader.twig' %}
+
+        <div class="main" role="main">
+            <div class="gallerywrapper">
+                {% for image in meta.Images %}
+                <img src="{{base_url}}/image/gallery/{{ image.file }}" alt="{{ image.alt }}" class="galleryimage" />
+                {% endfor %}
+                {{ content }}
+            </div>
+        </div>
+
+        {% include 'incl/footer.twig' %}
+    </div>
+</body>
+
+</html>
