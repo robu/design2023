@@ -1,34 +1,33 @@
-Titel på rapporten
-=======================
+# Analyzing web sites' load times
 
-Skriv en eller två rader om vad uppgiften handlar om.
+This assignment selects three web sites and analyzes their load times. 
 
-Urval
------------------------
+## Selection
 
-Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
+I have selected the following web sites:
+* [Valmyndigheten](https://www.val.se/)
+* [Sveriges Radio](https://sverigesradio.se/)
+* [Försäkringskassan](https://www.forsakringskassan.se/)
 
-Metod
------------------------
+This time, I have used the criteria that the web sites should be critical to the society in some way. I have also tried to select web sites that are not too similar to each other.
 
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
+## Method
 
-Resultat
------------------------
+I will use the Google Pagespeed tool to measure each site's load times. I have chosen a particular page on each site to analyze. I will also use the Chrome Developer Tools to measure the load times. The measurements will be recorded in a Google Spreadsheet table and embedded in the report below.
+
+## Results
 
 Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade.
 
-Analys
------------------------
+## Analysis
 
 Diskutera och analysera de resultaten du fann.
 
-Referenser
------------------------
+## References
 
 Ange de eventuella referenser du använder dig av, om några.
 
-Övrigt
------------------------
+# Misc 
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+This report was written by [Robert Burén](../).
+
