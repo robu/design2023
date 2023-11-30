@@ -569,7 +569,7 @@ pre code {
 
 .galleryimage {
   padding: 0.8em;
-  background-color: white;
+  background-color: #fff;
   width: calc(33.3333333333% - 1em);
 }
 .galleryimage p {
@@ -583,6 +583,24 @@ pre code {
 .galleryimage img {
   padding: 0;
   width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 600px) {

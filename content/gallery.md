@@ -26,8 +26,8 @@ Images:
       alt: fishing
     - file: IMG_9973.jpg
       alt: lake
+Video: https://www.youtube.com/embed/8fWrTH77byg?si=ACgcrpxH843EcLi5
+VideoTitle: The funniest twelve seconds on the internet
 ---
 
 # Random pictures from my phone
-
-
