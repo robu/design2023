@@ -639,6 +639,28 @@ pre code {
   color: #fff;
 }
 
+table {
+  background-color: #ddd;
+  border: solid 2px #918E24;
+}
+table thead th {
+  font-size: 1.1em;
+  background-color: #bbb;
+  border-bottom: solid 1px #918E24;
+  padding: 0.5em;
+  color: #000;
+}
+table tbody td {
+  padding: 0.5em;
+  color: #000;
+}
+table tbody td a {
+  color: #000;
+}
+table tbody tr:nth-child(2) {
+  background-color: #bbb;
+}
+
 .nav {
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;

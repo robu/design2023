@@ -23,3 +23,25 @@
 .coloruse .white {
     color: $light-text;
 }
+
+table {
+    background-color: #ddd;
+    border: solid 2px $border-color;
+    thead th {
+        font-size: 1.1em;
+        background-color: #bbb;
+        border-bottom: solid 1px $border-color;
+        padding: 0.5em;
+        color: $dark-text;
+    }
+    tbody td {
+        padding: 0.5em;
+        color: $dark-text;
+    }
+    tbody td a {
+        color: $dark-text;
+    }
+    tbody tr:nth-child(2) {
+        background-color: #bbb;
+    }
+}
