@@ -1,0 +1,119 @@
+.techwrapper {
+    display: grid;
+    gap: 1em;
+
+    h1 {
+        grid-column: span 3;
+        justify-self: center;
+    }
+
+    .span2 {
+        grid-column: span 2;
+    }
+
+    .span3 {
+        grid-column: span 3;
+    }
+}
+
+.techwrapper .box {
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    border: solid 1px $border-color;
+    box-shadow: 0 3px 2px $border-shadow-color;
+    border-radius: 10px;
+
+    a {
+        padding: 0.5em 0;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    a:hover {
+        color: $highlight-color;
+        background-color: $highlight-background-color;
+    }
+}
+
+// if page is less than 400px wide, only have one column
+@media (max-width: 400px) {
+    .techwrapper {
+        h1,
+        .span2,
+        .span3 {
+            grid-column: span 1;
+        }
+    }
+}
+
+.twocol-content {
+    display: flex;
+}
+
+.sidebar {
+    order: 1;
+}
+
+.maincontent {
+    order: 2;
+}
+
+.twocol-content {
+    margin-top: 2em;
+}
+
+.sidebar {
+    .framed {
+        padding: 2em;
+        border-radius: 15px;
+        border: 5px solid $border-color;
+        box-shadow: 0 3px 2px $border-shadow-color;
+    }
+
+    li {
+        list-style-type: none;
+        margin-bottom: 0.5em;
+    }
+
+    li:hover {
+        list-style-type: ">>  ";
+    }
+
+    .active {
+        list-style-type: ">>  ";
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: $highlight-color;
+        background-color: $highlight-background-color;
+    }
+}
+
+.maincontent {
+    padding-left: 2em;
+}
+
+@media (max-width: $mobile-width) {
+    .twocol-content {
+        display: block;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .maincontent {
+        padding-left: 0;
+    }
+}

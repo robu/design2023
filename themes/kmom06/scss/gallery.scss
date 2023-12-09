@@ -1,0 +1,58 @@
+.gallerywrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1em;
+    clear: both;
+ }
+
+.galleryimage {
+    padding: 0.8em;
+    background-color: #fff;
+    width: calc(100% / 3 - 1em);
+
+    p {
+        padding: 0;
+        margin: 0;
+        color: $dark-text;
+        font-family: 'Caveat', cursive;
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    img {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: $tablet-width) {
+    .galleryimage {
+        width: calc(100% / 2 - 1em);
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .galleryimage {
+        width: 100%;
+    }
+}

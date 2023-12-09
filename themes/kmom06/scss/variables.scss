@@ -1,0 +1,35 @@
+// colors from color schema
+$color1: #D1CA00;
+$color2: #918E24;
+$color3: #5400D1;
+$color4: #4B297C;
+$color5: #525029;
+
+$light-text: #fff;
+$dark-text: #000;
+
+
+
+$body-background-color: $color2;
+$content-color: $color5;
+$content-background-color: $color1;
+$highlight-color: $light-text;
+$highlight-background-color: $color4;
+$border-color: $color2;
+$border-shadow-color: $color5;
+
+
+//$font-color: $color5;
+//$accent-color: $color3;
+//$background-color: $color1;
+//$font-active-color: $color4; // active sidebar item
+//$link-color: $color3; // hover link
+//$background-alternative-color: $accent-color;
+//$background-hover-color: $accent-color;
+//$font-alternative-color: $light-text;
+
+
+// responsive widths
+$mobile-width: 400px;
+$tablet-width: 600px;
+$desktop-width: 800px;

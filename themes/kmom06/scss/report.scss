@@ -1,0 +1,47 @@
+.website-capture {
+    aspect-ratio: 16 / 9;
+    width: 50%;
+    float: left;
+    object-fit: cover;
+    object-position: top;
+    margin: 0 1em 1em 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.coloruse {
+    height: 2em;
+}
+
+.coloruse td {
+    width: 2em;
+    text-align: center;
+}
+
+.coloruse .white {
+    color: $light-text;
+}
+
+table {
+    background-color: #ddd;
+    border: solid 2px $border-color;
+    thead th {
+        font-size: 1.1em;
+        background-color: #bbb;
+        border-bottom: solid 1px $border-color;
+        padding: 0.5em;
+        color: $dark-text;
+    }
+    tbody td {
+        padding: 0.5em;
+        color: $dark-text;
+    }
+    tbody td a {
+        color: $dark-text;
+    }
+    tbody tr:nth-child(2) {
+        background-color: #bbb;
+    }
+}
